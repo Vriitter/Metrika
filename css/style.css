@@ -234,3 +234,42 @@ section {
    letter-spacing: -0.03em;
    color: #fff;
 }
+
+/* CONTACTS */
+.contacts {
+   margin-bottom: 0;
+   padding: 190px 0 122px;
+}
+
+.contacts__title {
+   position: relative;
+   margin-bottom: 32px;
+}
+
+.contacts__title:before {
+   position: absolute;
+   content: '';
+   bottom: 32px;
+   left: -4px;
+   width: 24px;
+   height: 24px;
+   background: url(../img/phone.svg) center/cover no-repeat;
+}
+
+.contacts__link {
+   display: block;
+   margin-bottom: 35px;
+   font-size: 60px;
+   line-height: 100%;
+   letter-spacing: -0.03em;
+}
+
+.contacts__phone-email {
+   mmargin-bottom: 0;
+   opacity: 0.5;
+   text-decoration: underline;
+   text-decoration: underline;
+   text-decoration-color: #000;
+   text-underline-offset: 10px;
+   text-decoration-thickness: 3px;
+}
