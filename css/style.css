@@ -185,3 +185,34 @@ section {
    color: #fff;
    transition: all .5s;
 }
+
+/* SERVICES */
+.services {
+   padding: 155px 0 156px;
+   margin-bottom: 0;
+   background-color: #121212;
+   color: #fff;
+}
+
+.services__title {
+   margin-bottom: 38px;
+}
+
+.services__item {
+   margin-bottom: 66px;
+}
+
+.services__item:last-child {
+   margin-bottom: 0;
+}
+
+.services__item-img {
+   width: 100%;
+   margin-bottom: 18px;
+}
+
+.services__item-title {
+   font-weight: 400;
+   font-size: 30px;
+   letter-spacing: -0.03em;
+}
