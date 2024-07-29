@@ -216,3 +216,21 @@ section {
    font-size: 30px;
    letter-spacing: -0.03em;
 }
+
+/* EXAMPLE */
+.example {
+   position: relative;
+   height: 717px;
+   margin-bottom: 0;
+   background: url(../img/example-bg.jpg) center/cover no-repeat;
+}
+
+.example__text {
+   position: absolute;
+   bottom: 60px;
+   max-width: 420px;
+   font-size: 30px;
+   line-height: 41px;
+   letter-spacing: -0.03em;
+   color: #fff;
+}
